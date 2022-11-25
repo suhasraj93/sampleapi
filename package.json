@@ -1,0 +1,19 @@
+{
+  "name": "unboxapi1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/bagclosed.js  --timeout 30000 "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-mocha": "^2.0.0-beta.19",
+    "axios": "^1.2.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3"
+  }
+}
